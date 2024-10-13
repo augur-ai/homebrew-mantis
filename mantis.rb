@@ -5,20 +5,20 @@
 class Mantis < Formula
   desc ""
   homepage "https://getaugur.ai"
-  version "0.9.5"
+  version "0.1.0"
   depends_on :macos
 
   on_intel do
-    url "https://mantis-public-releases.s3.us-east-2.amazonaws.com/mantis/v0.9.5/mantis_0.9.5_darwin_amd64.tar.gz"
-    sha256 "22b0b18a82d93e511d0cd7d126b36ee60f8d64656425e4469101890e576f30e3"
+    url "https://mantis-public-releases.s3.us-east-2.amazonaws.com/mantis/v0.1.0/mantis_0.1.0_darwin_amd64.tar.gz"
+    sha256 "a0bab57a73b7c1ed2c010ea87345a9ee0d18254b3c0a89af60197f05520e0d27"
 
     def install
       bin.install "mantis"
     end
   end
   on_arm do
-    url "https://mantis-public-releases.s3.us-east-2.amazonaws.com/mantis/v0.9.5/mantis_0.9.5_darwin_arm64.tar.gz"
-    sha256 "a016e5f36053762d52ee67198a9fdbf4c98f5d2924ef7e6d188e9f92c4a1a13a"
+    url "https://mantis-public-releases.s3.us-east-2.amazonaws.com/mantis/v0.1.0/mantis_0.1.0_darwin_arm64.tar.gz"
+    sha256 "655e530644e02913c29e21af881a31eabb01d54c6771c527092f19f07ac9baff"
 
     def install
       bin.install "mantis"
